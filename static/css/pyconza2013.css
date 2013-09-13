@@ -1,61 +1,23 @@
-html, body {
-}
+html, body { }
 
-#wrap {
-  min-height: 100%;
+#wrap { min-height: 100%;
   /* put the background behind the clouds -- see CLOUDS further down */
   background: url('../img/clouds_bottom.png'), url('../img/clouds_top.png'), url('../img/pattern.jpg'), #fff;
   background-repeat: no-repeat, no-repeat, repeat, repeat;
   background-position: bottom center, top center, 0 0, 0 0;
 }
 
-#main {
-  color: white;
-}
+#main { color: white; }
+#main .popover-content, #main .popover-title { color: black; }
+#main .form-actions { background: inherit; border: none; padding: 0px; }
+#main .well { color: black; }
 
-#main .popover-content, #main .popover-title {
-  color: black;
-}
+#logos { margin: 0 auto; text-align: center; padding-top: 20px; padding-bottom: 20px; }
+#logos img { padding: 10px 20px; }
 
-#main .form-actions {
-  background: inherit;
-  border: none;
-  padding: 0px;
-}
+#legal { text-align: center; font-family: 'Londrina Solid', cursive; font-size: 30px; color: #eadc35; text-transform: uppercase; padding-bottom: 20px; }
 
-#main .well {
-  color: black;
-}
-
-#logos {
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#logos img {
-  padding: 10px 20px;
-}
-
-#legal {
-  text-align: center;
-  font-family: 'Londrina Solid', cursive;
-  font-size: 30px;
-  color: #eadc35;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-}
-
-#credits {
-  text-align: center;
-  font-family: 'Londrina Solid', cursive;
-  font-size: 20px;
-  color: white;
-  text-transform: uppercase;
-  line-height: 36px;
-  padding-bottom: 20px;
-}
+#credits { text-align: center; font-family: 'Londrina Solid', cursive; font-size: 20px; color: white; text-transform: uppercase; line-height: 36px; padding-bottom: 20px; }
 
 #logo_bottom {
   /* this padding needs to be big enough to avoid clouds_bottom.png covering text. */
@@ -63,33 +25,16 @@ html, body {
   text-align: center;
 }
 
-#footer {
-  position: fixed;
-  bottom: 0;
-  background: #000;
-  color: white;
-  width: 100%;
-  clear: both;
-  padding: 10px 0px;
-  text-align: center;
-}
+#footer { position: fixed; bottom: 0; background: #000; color: white; width: 100%; clear: both; padding: 10px 0px; text-align: center; }
 
-.wafer.list div:nth-child(2n) {
-  background: rgba(0, 0, 0, 0.1);
-  padding: 10px;
-}
+.wafer.list div:nth-child(2n) { background: rgba(0, 0, 0, 0.1); padding: 10px; }
 
-.wafer.list div:nth-child(2n + 1) {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 10px;
-}
+.wafer.list div:nth-child(2n + 1) { background: rgba(255, 255, 255, 0.1); padding: 10px; }
 
 /* fix icons on top nav bar */
-
 ul.nav li.icon a {
   padding: 6px;
 }
-
 
 a { color: #33cc99; }
 a:hover, a:focus { color: #33cc99; }
@@ -206,3 +151,4 @@ a:hover, a:focus { color: #33cc99; }
         table td.title { background: #33cc99; font-family: 'Oswald', sans-serif; font-size: 16px; color: #1a1f29; text-transform: uppercase; line-height: 26px; }
         table th { background: #e6d935; color: #181f29; font-weight: normal; vertical-align: top; }
         table th span { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: bold; color: #1a1f29; text-transform: uppercase; line-height: 26px; }
+
